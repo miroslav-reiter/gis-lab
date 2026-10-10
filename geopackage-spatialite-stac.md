@@ -4,7 +4,7 @@
 **Prostredie:** Microsoft Windows 11 · QGIS · ArcGIS Pro  
 **Zameranie:** GeoPackage (.gpkg) · SQLite/SpatiaLite (.sqlite) · STAC API · satelitné údaje
 
-> 🎯 **Cieľ:** Nezakladáme nové databázy ani nevytvárame tabuľky. Stiahneme existujúce geografické databázy, otvoríme ich v QGIS a ArcGIS Pro, porovnáme vrstvy a vyhľadáme satelitné údaje cez verejný STAC katalóg.
+> 🎯 **Cieľ:** Stiahneme existujúce geografické databázy, otvoríme ich v QGIS a ArcGIS Pro, porovnáme vrstvy a vyhľadáme satelitné údaje cez verejný STAC katalóg.
 
 ## 📑 Obsah
 
@@ -304,39 +304,6 @@ Súbor `.astac` uchováva **nastavenie pripojenia**, nie samotné satelitné dá
 | STAC nájde položku, no raster sa nenačíta | Asset potrebuje token, podpis URL alebo podporovaný ovládač | Skontrolujeme href, autentizáciu a typ assetu |
 | GeoPackage je zamknutý | Iný proces súbor upravuje | Pracujeme s kópiou a vyhneme sa súbežným zápisom |
 
-## 🎬 Návrh 15 slajdov
-
-| Slajd | Názov | Obsah a praktická ukážka |
-|---:|---|---|
-| 1 | GIS Databázy a STAC | Čo budeme pripájať v QGIS a ArcGIS Pro |
-| 2 | Čo sú GeoPackage, SQLite a SpatiaLite | Význam a vzťah jednotlivých technológií |
-| 3 | GeoPackage vs. SpatiaLite vs. STAC | Súborové databázy vs. online katalógy |
-| 4 | Odkiaľ získame GIS dáta | QGIS Training Data, Natural Earth, Earth Search |
-| 5 | GeoPackage – existujúca databáza | Stiahnutie a obsah `training_data.gpkg` |
-| 6 | GeoPackage v QGIS | Browser, New Connection, atribúty |
-| 7 | GeoPackage v ArcGIS Pro | Catalog, Add To Project, zobrazenie vrstvy |
-| 8 | SQLite a SpatiaLite | Geometrie a rozdiel oproti obyčajnému SQLite |
-| 9 | SpatiaLite v QGIS | `landuse.sqlite`, otvorenie vrstvy `landuse` |
-| 10 | SpatiaLite v ArcGIS Pro | Catalog, podporované verzie, kompatibilita |
-| 11 | Rovnaké údaje v dvoch formátoch | Natural Earth GPKG vs. SpatiaLite |
-| 12 | Čo je STAC | Catalog, Collection, Item, Asset, API |
-| 13 | STAC Browser v QGIS | Earth Search a vyhľadanie snímok |
-| 14 | Explore STAC v ArcGIS Pro | Pripojenie, filtre, metadáta, assety |
-| 15 | Zhrnutie a chyby | Kedy použiť GPKG, SpatiaLite a STAC |
-
-### ⏱️ Orientačné časovanie videa
-
-| Čas | Obsah |
-|---|---|
-| 00:00–07:00 | Pojmy a rozdiely |
-| 07:00–12:00 | Existujúce dátové zdroje |
-| 12:00–24:00 | GeoPackage v oboch aplikáciách |
-| 24:00–35:00 | SpatiaLite v oboch aplikáciách |
-| 35:00–40:00 | Natural Earth – porovnanie |
-| 40:00–50:00 | STAC Browser v QGIS |
-| 50:00–58:00 | STAC v ArcGIS Pro |
-| 58:00–60:00 | Chyby a záver |
-
 ## 🔗 Oficiálna dokumentácia a odkazy
 
 **Údaje a ich pôvod**
@@ -362,4 +329,3 @@ Súbor `.astac` uchováva **nastavenie pripojenia**, nie samotné satelitné dá
 - [Element 84 Earth Search – dokumentácia a kolekcie](https://github.com/Element84/earth-search)
 - [STAC Specification](https://stacspec.org/)
 
-> 📌 **Zásada laboratória:** Otvárame a skúmame **existujúce zdrojové dáta**. Lokálne projektové súbory QGIS/ArcGIS môžeme uložiť, ale do originálnych GPKG/SQLite súborov pri cvičení nezapisujeme. Pri komunite prevzatých dátach vždy overíme pôvod, licenciu a kompatibilitu aplikácie.
