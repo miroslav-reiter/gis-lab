@@ -1,0 +1,13 @@
+<!DOCTYPE connections>
+<qgsXYZTilesConnections version="1.0" xmlns:http-header="https://qgis.org/http-header">
+    <xyztiles authcfg="" http-header:referer="" name="CyclOSM – cyklistická mapa sveta" password="" referer="" tilePixelRatio="1" url="https://a.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png" username="" zmax="20" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="Esri World Ocean – oceánografická mapa sveta" password="" referer="" tilePixelRatio="1" url="https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}" username="" zmax="18" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="Esri World Topo" password="" referer="" tilePixelRatio="2" url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}" username="" zmax="19" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="OpenStreetMap Germany – nemecká verzia OSM" password="" referer="" tilePixelRatio="0" url="https://tile.openstreetmap.de/{z}/{x}/{y}.png" username="" zmax="18" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="OpenStreetMap HOT – humanitárna mapa sveta" password="" referer="" tilePixelRatio="2" url="https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png" username="" zmax="19" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="OpenStreetMap Standard" password="" referer="" tilePixelRatio="2" url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" username="" zmax="19" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="OpenTopoMap – turistická a topografická mapa sveta" password="" referer="" tilePixelRatio="1" url="https://tile.opentopomap.org/{z}/{x}/{y}.png" username="" zmax="17" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="USGS Aerial Imagery – letecké snímky USA" password="" referer="" tilePixelRatio="1" url="https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}" username="" zmax="16" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="USGS Shaded Relief – tieňovaný reliéf terénu" password="" referer="" tilePixelRatio="1" url="https://basemap.nationalmap.gov/arcgis/rest/services/USGSShadedReliefOnly/MapServer/tile/{z}/{y}/{x}" username="" zmax="18" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="USGS Topographic Map – topografická mapa USA" password="" referer="" tilePixelRatio="1" url="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}" username="" zmax="16" zmin="0"/>
+</qgsXYZTilesConnections>
