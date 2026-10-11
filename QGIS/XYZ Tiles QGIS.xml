@@ -1,0 +1,7 @@
+<!DOCTYPE connections>
+<qgsXYZTilesConnections version="1.0" xmlns:http-header="https://qgis.org/http-header">
+    <xyztiles authcfg="" http-header:referer="" name="Esri Satellite" password="" referer="" tilePixelRatio="1" url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" username="" zmax="19" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="Esri World Topo" password="" referer="" tilePixelRatio="1" url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}" username="" zmax="19" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="OpenStreetMap Standard" password="" referer="" tilePixelRatio="1" url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" username="" zmax="19" zmin="0"/>
+    <xyztiles authcfg="" http-header:referer="" name="USGS Topographic Map" password="" referer="" tilePixelRatio="1" url="https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}" username="" zmax="19" zmin="0"/>
+</qgsXYZTilesConnections>
