@@ -1,0 +1,7 @@
+STAC (SpatioTemporal Asset Catalog) 
+
+https://earth-search.aws.element84.com/v1
+https://element84.com/earth-search/examples
+
+https://planetarycomputer.microsoft.com/api/stac/v1
+
